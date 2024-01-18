@@ -1,0 +1,151 @@
+
+.contact{
+    background: var(--main-bg);
+    width: 100vw;
+    padding: 2rem ;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.contact__header{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.contact__title{
+    color:var(--nav-text);
+    font-weight: 600;
+}
+
+.contact form{
+    max-width: 50rem;
+    text-align: center;
+    margin: .3rem auto;
+    /* margin-bottom: 3rem; */
+}
+
+.contact form input,
+.contact form textarea{
+    width: 100%;
+    background: #1e293b;
+    border: none;
+    margin-bottom: .5rem;
+    padding: .7rem;
+    border-radius: .5rem;;
+    outline: none;
+    color: #fafaf9;
+    font-size: .9rem;
+}
+.contact form input{
+    height: 48px;
+}
+.contact form textarea{
+    resize: none;
+}
+.contact__name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.name{
+    flex-basis: 100%;
+}
+
+.btn{
+    padding: .7rem;
+    margin:auto;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+    border: .2rem solid var(--nav-text);
+    background: transparent;
+    border-radius: 15px;
+    color: var(--nav-text);
+    font-size: .9rem;
+}
+.btn:hover{
+    transform: translate(20%,20%);
+}
+
+.each__otherContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.contact__otherContact{
+    max-width: 30rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--main-bg);
+    justify-content: center;
+    margin: 2rem auto;
+}
+.socialIcons{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    color: #f2f1e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+.Mailicon{
+    color: #f2f1e6;
+    font-size: 1.8rem;
+}
+
+/* strong{
+    margin-top: .5rem;
+} */
+
+/* footer */
+  
+  /* smallScreen*/
+  
+  @media (min-width: 640px) {
+    .socials{
+        max-width: 30rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  
+  /* mediumScreen*/
+  
+ @media (min-width: 550px) {
+    
+    .name{
+        flex-basis: 45%;
+    }
+    .contact__otherContact{
+        flex-direction: row;
+    }
+
+  } 
+  
+  /*largeScreen*/
+  
+  @media (min-width: 950px) {
+    .contact__title{
+        font-size:  2.25rem;
+    }
+    
+  }
+  
+  

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Sora:wght@600;700&family=Work+Sans:wght@400;700&display=swap');
+
+.SignUpcontainer{
+    background-image: linear-gradient(	rgba(120, 224, 234, 0.5),#303263), url("../../Images/Signup_background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: auto 2rem;
+}
+.Signcontainer{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.Left{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 45%;
+    max-width: 45%;
+    align-items: center;
+    justify-content: center;
+    background: #fcfc0c2d;
+    padding: 3rem 2rem 4rem;
+    height: 95vh;
+    border-radius: 15px;
+}
+.FormTitle{
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #141414;
+margin-top: 1rem;
+}
+  .FormDes{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #080707;
+    width: 100%;
+    margin: 1rem auto;
+}
+.serviceproviders{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .button{
+    width: 100%;
+    height: 48px;
+    border-radius: 12px;
+    border: 3px solid var(--main-bg);
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #141414;
+      }
+    .form {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    }
+      
+      .formGroup label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: left;
+      }
+      
+      .formGroup input {
+        width: 100%;
+        height: 51px;
+        padding: 16px;
+        border-radius: 12px;
+        border: 3px solid var(--main-bg);
+    
+      }
+
+.submitButton {
+    width: 100%;
+    height: 45px;
+    padding: 16px 20px 16px 20px;
+    border-radius: 8px;
+    gap: 10px;
+    background: #120B48;
+    cursor: pointer;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F9F9FF;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+      }
+      
+      .submitButton:hover {
+        background:var(--main-bg); 
+      border: 3px solid #0c4a6e;
+    }
+      
+      .options{
+        color: var(--main-bg);
+        font-weight: 600;
+      }
+      .toggleButton {
+        background-color: transparent;
+        border: none;
+        color: #e0edf4; 
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: underline;
+        font-size: 20px;
+      }
+      
+      
+      .toggleButton:hover {
+        color: #fdfd07cb; }
+      
+      .error {
+        color: 	#d50d0d;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .success {
+        color: #228B22;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      @media screen and (max-width: 750px) {
+        .Signcontainer{
+         flex-direction: column-reverse;
+        }
+        .Left{
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+      }
+      

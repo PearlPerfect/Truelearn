@@ -1,0 +1,115 @@
+
+.Footer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.LogoDiv{
+    flex: 0 0 35%;
+    max-width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footerLogo{
+    color: var(--main-bg);
+    font-weight: 800;
+    font-size: 24px;
+    text-shadow: 2px 2px 8px #fbe70b;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 2rem;
+}
+.LogoDivDes{
+    font-weight: 600;
+    text-align: left;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 1rem;
+    color: var(--main-bg);
+    /* flex-wrap: wrap; */
+}
+.socialIcons{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background: var(--main-bg);
+    color: #f2f1e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 800;
+    flex-wrap: wrap;
+}
+.copyRight{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 2.5rem;
+}
+.footerHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.FooterLi{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    
+}
+.FooterLi:hover{
+    background: rgb(225, 75, 75);
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+.footerTitles{
+    text-transform: uppercase;
+}
+.FooterLiIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+@media screen and (max-width: 850px) {
+    .Footer{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        max-width: 100%;
+        gap: 2rem;
+    }
+    .LogoDiv{
+        max-width: 100%;
+    }
+    /* .footerHeading{
+        max-width:50%;
+    } */
+}
+
+@media screen and (max-width: 550px) {
+    .Footer{
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+        gap: 2rem;
+    }
+    .LogoDiv{
+        max-width: 100%;
+    }
+    /* .footerHeading{
+        max-width:50%;
+    } */
+}

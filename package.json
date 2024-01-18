@@ -9,9 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.12",
+    "@mui/material": "^5.14.12",
+    "@nextui-org/accordion": "^2.0.23",
+    "firebase": "^10.4.0",
+    "next": "^13.5.4",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-icons": "^4.11.0",
+    "react-responsive-carousel": "^3.2.23",
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "eslint": "latest",
