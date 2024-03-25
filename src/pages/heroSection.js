@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from '../styles/Home.module.css';
-import Image from 'next/image';
-import Student from '../Images/Student.jpg'
 import Link from 'next/link';
 import Slideshow from '@/Components/slider/slider';
 
@@ -18,7 +16,6 @@ export default function HeroSection(){
     </div>
     <div className={styles.left}>
       <Slideshow/>
-        {/* <Image src={Student} className={styles.leftImg} alt='student'></Image> */}
     </div>
 </div>
     </>
