@@ -43,7 +43,7 @@ export default function AboutSlideshow() {
         <div className="slideshow">
           <div
             className="slideshowSlider"
-            style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
+            style= {{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
           >
             {Colors.map((backgroundColor, index) => (
               <div
@@ -53,7 +53,7 @@ export default function AboutSlideshow() {
               >
                 <div className={styles.slideProps}>
                 <h1 className='slideDes'>{Texts[index]}</h1>
-                <Image src={logo[index]} alt='images' width={470} height={220} BorderAllRounded/>
+                <Image src={logo[index]} alt='images' width={470} height={220} id='img' BorderAllRounded/>
 
                 </div>
               </div>

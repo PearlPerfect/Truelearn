@@ -20,6 +20,7 @@ body {
 }
 footer{
 background: #f5dede;
+/* #fdfde9 */
 color: var(--main-bg);
 padding:2rem 3rem 1rem;
 }
@@ -277,9 +278,10 @@ color: var(--nav-text);
 
 
 .eachPostDesc {
-  color: #666;
+  color: #fffbfb;
   font-size: 18px;
   line-height: 25px;
+  text-align: left;
 }
 
 .eachPostDesc::first-letter {
