@@ -1,9 +1,6 @@
 import React from "react";
-import Link from "next/link";
-import Image from "next/image";
 import {useEffect,useState,useRef} from 'react'
 import styles from "./dashboard.module.css";
-import { auth } from "@/services/_config";
 import { InputAdornment,TextField } from "@mui/material";
 import { useRouter } from 'next/router';
 
@@ -41,15 +38,14 @@ export default function Dashboard(){
   InputProps={{
     startAdornment: (
       <InputAdornment position="start">
-        {/* <Image src={searchIcon} alt="" /> */}
+   
       </InputAdornment>
     ),
   }}
   placeholder="Search..."
   variant="outlined"
 />
-           {/* <Image src={searchIcon} alt="search Icon"  className={styles.searchIcon}  ></Image> */}
-    
+       
            </div>
 
 
