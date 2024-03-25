@@ -161,7 +161,7 @@ export default function Footer() {
           </div>
         </div>
         <p className={styles.copyRight}>
-          Copyright © PearlPerfect2023, All Rights Reserved.
+          Copyright © PearlPerfect2024, All Rights Reserved.
         </p>
         <br />
       </footer>
