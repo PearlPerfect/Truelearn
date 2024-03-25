@@ -36,7 +36,6 @@ header{
   top: 0;
   width: 100%;
   background: var(--main-bg);
-  
 }
 nav{
   display: flex;
@@ -86,13 +85,12 @@ nav{
   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 100px 80px rgba(0, 0, 0, 0.088);
- 
 }
 .nav__menu-list.active{
   right: 0;
 }
 .nav__link{
-  font-size: 20px; 
+  font-size: 20px;
   position: relative;
   transition: all 0.2s;
   color: var(--nav-text);
@@ -134,7 +132,6 @@ video{
     width: fit-content;
     column-gap: 24px;
     align-items: center;
-    
   }
   .nav__link::before{
     content: '';
@@ -145,13 +142,13 @@ video{
     left: 0;
     background: #fafaf9;
     transition: all 0.2s;
-  } 
+  }
   .nav__link:hover:before{
-   width: 100%;
+  width: 100%;
   }
   footer{
     max-width: 100%;
-   padding-top:4rem ;
+  padding-top:4rem ;
   }
 }
 
@@ -268,12 +265,10 @@ color: var(--nav-text);
 }
 
 .eachPostInfo {
- 
   display: flex;
   justify-content: space-between;
   font-size: 16px;
   color: #be9656;
- 
 }
 
 
